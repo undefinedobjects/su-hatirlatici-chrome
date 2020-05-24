@@ -1,0 +1,19 @@
+{
+  "name": "Su Hatırlatıcı",
+  "description": "Otuz dakikada bir su içmenizi hatırlatan chrome eklentisi",
+  "version": "0.0.0.2",
+  "author": "undefined objects",
+  "manifest_version": 2,
+  "permissions": ["notifications"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action":{
+    "default_icon": "icon.png",
+  	"default_title": "Su Hatırlatıcı"
+  },
+  "icons": {
+    "256": "icon.png"
+  }
+}
